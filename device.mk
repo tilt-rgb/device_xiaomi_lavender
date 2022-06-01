@@ -14,6 +14,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     $(DEVICE_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Camera
 PRODUCT_PACKAGES += \
     libstdc++.vendor
