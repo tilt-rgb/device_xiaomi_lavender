@@ -1033,6 +1033,3 @@ vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 # Widevine - from lavender V12.0.1.0.QFGMIXM
 vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
-
-# Wifi
-vendor/bin/cnss-daemon
