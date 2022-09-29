@@ -169,7 +169,7 @@
             "Type":"CPU"
         },
         {
-            "Name":"thermal-cpufreq-1",
+            "Name":"thermal-cpufreq-4",
             "Type":"CPU"
         },
         {
