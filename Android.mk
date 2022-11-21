@@ -17,7 +17,7 @@ ifeq ($(TARGET_DEVICE),lavender)
 	  $(call pretty,"Target dummy super image: $@")
 	  $(hide) touch $@
 	  $(hide) echo $(CURDIR)
-	  $(hide) $(LPFLASH) $(CURDIR)/$@ $(CURDIR)/$(PRODUCT_OUT)/super_empty.img
+	  $(hide) $(LPFLASH) $@ $(PRODUCT_OUT)/super_empty.img
 
   .PHONY: super_dummyimage
   super_dummyimage: $(INSTALLED_SUPERIMAGE_DUMMY_TARGET)
