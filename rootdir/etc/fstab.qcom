@@ -7,8 +7,8 @@
 
 # Non-A/B fstab.qcom variant
 #<src>                                                   <mnt_point>          <type>  <mnt_flags and options>                                                                         <fs_mgr_flags>
-system                                                   /system              erofs   ro                                                                                              wait,logical,avb,first_stage_mount,readahead_size_kb=128
-system                                                   /system              ext4    ro,barrier=1                                                                                    wait,logical,avb,first_stage_mount,readahead_size_kb=128
+system                                                   /system              erofs   ro                                                                                              wait,logical,avb=vbmeta,first_stage_mount,readahead_size_kb=128
+system                                                   /system              ext4    ro,barrier=1                                                                                    wait,logical,avb=vbmeta,first_stage_mount,readahead_size_kb=128
 system_ext                                               /system_ext          erofs   ro                                                                                              wait,logical,avb,first_stage_mount,readahead_size_kb=128
 system_ext                                               /system_ext          ext4    ro,barrier=1                                                                                    wait,logical,avb,first_stage_mount,readahead_size_kb=128
 product                                                  /product             erofs   ro                                                                                              wait,logical,avb,first_stage_mount,readahead_size_kb=128
