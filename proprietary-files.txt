@@ -1,4 +1,4 @@
-# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys
+# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.7.0.QFGCNXM release-keys
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
