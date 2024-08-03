@@ -15,6 +15,8 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+ARROW_GAPPS := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi

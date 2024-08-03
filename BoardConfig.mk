@@ -24,7 +24,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_CONFIG := vendor/lavender-perf_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Manifest
